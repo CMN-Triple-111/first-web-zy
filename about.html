@@ -1,212 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZYOA About</title>
-    <link rel="icon" type="image/png" href="assets/icons/soursop.png">
-    <link rel="stylesheet" type="text/css" href="static/css/join-us-about.css?v=3">
-    <link rel="stylesheet" type="text/css" href="static/css/about.css?v=3">
-    <link rel="stylesheet" type="text/css" href="static/css/navbar.css?v=3">
-    <link rel="stylesheet" type="text/css" href="static/css/join-us-btn.css?v=3">
-    <link rel="stylesheet" type="text/css" href="static/css/footer.css?v=3">
-    <link rel="stylesheet" type="text/css" href="global.css?v=3">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <head>
-
-    </head>
-    <body>
-
-        <div class="about-img-container">
-            <div class="zyoa-navbar-container"> <!--Navbar-->
-                <a class="zyoa-logo-container" href="/" aria-label="Home">
-                    <img src="assets/icons/soursop.svg" alt="Logo Image">
-                    <h2>ZYOA</h2>
-                    <h4>Concept</h1>
-                </a>
-                <div >
-                    <nav class="navbar-zyoa">
-                        <div class="menu-toggle">
-                            <i class="fas fa-bars"></i>
-                        </div>
-                        <ul class="nav-links-zyoa">
-                            <li><a href="/" aria-label="Go to home"><i class="fas fa-home active"></i>Home</a></li>
-                            <li><a href="#" class="active" aria-label="About"><i class="fas fa-info-circle"></i>About</a></li>
-                            <li><a href="projects.html" aria-label="Go to project projects"><i class="fa fa-tree"></i>Project</a></li>
-                            <li><a href="blog.html" aria-label="Go to blog"><i class="fas fa-briefcase"></i>Blog</a></li>
-                            <li><a href="contacts.html" aria-label="Go to contacts"><i class="fas fa-envelope"></i>Contact</a></li>
-                        </ul>
-                    </nav>
-                
-                </div>
-            </div><!--EndNav-->
-           
-            <div class="about-hero-content"><!--Content-->
-                <div class="about-hero-content-Left"><!--Left Content-->
-                    <h2>Growing a Greener Future</h2>
-                    <h5>Our mission is to promote sustainable agriculture and youth empowerment by providing affordable, eco-friendly organic fertilizers, while improving livelihoods and protecting the environment.</h5>  
-                </div>               
-            </div><!--EndContent-->          
-        </div>
-
-        <div class="about-navigator-fixed-container">
-            <button id="navigator-1" class="navigator-item" onclick="location.href='#who-we-are'">Who we are</button>
-            <button id="navigator-2" class="navigator-item" onclick="location.href='#mission-vision'">Mission & Vision</button>
-            <button id="navigator-3" class="navigator-item" onclick="location.href='#what-we-do'">What we do</button>
-            
-        </div>
-   
-        <div style="height: 50px; visibility: hidden; overflow: hidden;" aria-label="Space"></div>
-
-        <section id="who-we-are" class="section-who-we-are">
-            <div >
-                <h1>What is ZYOA?</h1>
-                <p>Zambia Youth for Organic Agriculture (ZYOA) is a youth-led organization focused on creating sustainable agricultural solutions for Zambia’s small-scale farmers. We are addressing the growing crisis of access to affordable, effective, and environmentally safe farming inputs by producing and promoting organic fertilizers made from locally available natural materials.</p>
-                <p>At ZYOA, we believe agriculture is not only the backbone of our economy—it is the foundation of food security, environmental health, and rural development. We aim to empower the next generation of farmers with tools and knowledge to grow more with less harm to people and the planet.</p>
-            </div>
-            <img src="assets/images/members.webp" loading="lazy" alt="Image">
-        </section>
-
-        <div class="spacer-b" aria-label="Space"></div><!--Space-->
-        <div class="spacer-bb" aria-label="Space"></div><!--Space-->
-
-        <div class="mission-vision-container" id="mission-vision">
-            <h1>Our Mission & Vision</h1>
-            <p>We are committed to empowering youth and promoting sustainable agriculture in Zambia.</p>
-        </div>
-        
-
-        <section class="section-two-container">
-            <div class="section-two-content-left">
-                <div class="vision-con"><!--Vision-->
-                    <img class="vision-img"  src="assets/icons/rocket-tp.gif" alt="Gif Image">
-                    <h1>Vision</h1>
-                    <p>A thriving, environmentally conscious agricultural sector in Zambia—led by empowered youth and strengthened by innovative organic practices</p>
-                </div>
-                <div class="vision-con"><!--Mission-->
-                    <img class="vision-img" src="assets/icons/astro-tp.gif" alt="Gif Image"> 
-                    <h1>Mission</h1>
-                    <p>To promote sustainable agriculture and youth empowerment by providing affordable, eco-friendly organic fertilizers, while improving livelihoods and protecting the environment</p>
-                </div>
-            </div>
-            
-            <div class="spacer-c" aria-label="Space"></div><!--Space-->
-            
-            <div class="section-two-content-right">
-                <h1 class="cv1">Core Values</h1>
-                <h2 class="cv2">Sustainability</h2>
-                <h2 class="cv3">Innovation</h2>
-                <h2 class="cv4">Health & Safety</h2>
-                <h2 class="cv5">Community prioritation</h2>
-                <h2 class="cv6">Resilience</h2>
-            </div>
-            
-        </section>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | ZYOA Concept - Zambia Youth for Organic Agriculture</title>
+  <meta name="description" content="Learn about Zambia Youth for Organic Agriculture (ZYOA) Concept, our youth-led mission, vision, core values, and community impact in Kanakantapa and across Zambia." />
   
+  <link rel="icon" type="image/png" href="assets/icons/soursop.png" />
+  <link rel="stylesheet" href="static/css/zyoa-theme.css?v=6" />
+  <link rel="stylesheet" href="static/css/footer.css?v=6" />
+  <link rel="stylesheet" href="global.css?v=6" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-        <section id="what-we-do" class="content-what-we-do">
-            <div class="what-we-do-title" id="mission-vision">
-                <h1>What we do</h1>
-                <!-- <p style="text-align: center; padding-bottom: 5px;">We are committed to empowering youth and promoting sustainable agriculture in Zambia.</p> -->
-            </div>
-            
-            <div class="do-content">
-                <h1>Organic Fertilizer Production</h1>
-                <h4>We develop and distribute organic fertilizers tailored for smallholder farmers, offering a sustainable and affordable alternative to synthetic options.</h4>
-            </div>
-            <div class="do-content">
-                <h1>Farmer Training & Capacity Building</h1>
-                <h4>We organize workshops and field demonstrations to educate farmers on soil health, organic practices, composting, and natural pest control.</h4>
-            </div>
-            <div class="do-content">
-                <h1>Youth Empowerment through Agriculture</h1>
-                <h4>We support young people with training, mentorship, and startup resources to encourage participation in agriculture as a viable livelihood.</h4>
-            </div>
-            <div class="do-content">
-                <h1>Community Engagement & Outreach</h1>
-                <h4>We work hand-in-hand with rural communities to promote environmentally responsible farming practices that enhance both yields and long-term land health.</h4>
-            </div>
-            <div class="do-content">
-                <h1>Environmental Awareness</h1>
-                <h4>We raise awareness about the impacts of chemical fertilizers and advocate for eco-friendly practices that preserve biodiversity and water safety.</h4>
-            </div>
- 
-        </section>
+<body>
+  <!-- Top Utility Bar -->
+  <div class="top-utility-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <div class="top-info-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span><strong>Headquarters:</strong> Mudenda Village, Kanakantapa &bull; Chongwe &bull; Lusaka Province &bull; Zambia</span>
+        </div>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-info-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <a href="tel:+260771827708">+260 771 827 708</a>
+        </div>
+        <div class="top-info-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <a href="mailto:zyoa2025@gmail.com">zyoa2025@gmail.com</a>
+        </div>
+        <span class="top-badge-compliance">Youth-Led Organic Agriculture &bull; Zambia</span>
+      </div>
+    </div>
+  </div>
 
-        <div class="aspiration-container container">
-            <h1 >Aspiration</h1>
+  <!-- Sticky Header -->
+  <header class="header-main">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo-wrap" aria-label="ZYOA Home">
+        <img src="assets/icons/soursop.svg" alt="ZYOA Logo" class="brand-svg-logo" />
+        <div class="brand-text-block">
+          <span class="brand-name">ZYOA</span>
+          <span class="brand-tagline">Concept</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About Us</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contacts.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contacts.html" class="btn-header-cta">
+          <span>Get Involved</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <button class="hamburger" aria-label="Toggle navigation menu" type="button">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="brand-logo-wrap">
+        <img src="assets/icons/soursop.svg" alt="ZYOA Logo" style="height: 38px;" />
+        <div class="brand-text-block">
+          <span class="brand-name" style="font-size: 1.3rem;">ZYOA</span>
+          <span class="brand-tagline">Concept</span>
+        </div>
+      </div>
+      <button class="drawer-close" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About ZYOA</a>
+      <a href="projects.html">Our Projects</a>
+      <a href="blog.html">Farmers Aid Blog</a>
+      <a href="contacts.html">Contact Us</a>
+    </nav>
+    <div class="drawer-contacts">
+      <p><strong>Phone:</strong> +260 771 827 708</p>
+      <p><strong>Email:</strong> zyoa2025@gmail.com</p>
+      <div style="margin-top: 16px;">
+        <a href="contacts.html" class="btn-primary" style="width: 100%; justify-content: center;">Send Message</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Banner -->
+    <section class="about-img-container" style="display: flex; align-items: center; justify-content: center; text-align: center; color: #ffffff; padding: 100px 20px;">
+      <div style="position: relative; z-index: 2; max-width: 800px;">
+        <span class="hero-pill-badge" style="margin-bottom: 16px;">
+          <span class="dot-live"></span>
+          <span>About ZYOA Concept</span>
+        </span>
+        <h1 style="font-size: clamp(2.4rem, 4.5vw, 3.8rem); color: #ffffff; margin-bottom: 16px; font-weight: 900;">
+          Pioneering Organic Agriculture In Zambia
+        </h1>
+        <p style="font-size: 1.15rem; color: #e2ece5; max-width: 650px; margin: 0 auto;">
+          Empowering youth and smallholders with affordable, eco-friendly organic inputs, building healthy soils, and creating sustainable rural livelihoods.
+        </p>
+      </div>
+    </section>
+
+    <!-- Fixed Sub-navigation Pills -->
+    <div style="background: var(--glass-bg); backdrop-filter: blur(12px); border-bottom: 1px solid var(--glass-border); padding: 12px 0; position: sticky; top: 72px; z-index: 90;">
+      <div class="container" style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+        <a href="#who-we-are" class="quick-tag" style="font-size: 0.88rem; padding: 8px 18px; text-decoration: none;">Who We Are</a>
+        <a href="#mission-vision" class="quick-tag" style="font-size: 0.88rem; padding: 8px 18px; text-decoration: none;">Mission &amp; Vision</a>
+        <a href="#core-values" class="quick-tag" style="font-size: 0.88rem; padding: 8px 18px; text-decoration: none;">Core Values</a>
+        <a href="#what-we-do" class="quick-tag" style="font-size: 0.88rem; padding: 8px 18px; text-decoration: none;">What We Do</a>
+        <a href="#join-us" class="quick-tag" style="font-size: 0.88rem; padding: 8px 18px; text-decoration: none;">Join Us</a>
+      </div>
+    </div>
+
+    <!-- Who We Are Section -->
+    <section class="section-block" id="who-we-are">
+      <div class="container">
+        <div class="split-grid-2">
+          <div>
+            <span class="section-badge-pill">Who We Are</span>
+            <h2 class="section-heading-title">Youth-Led Innovation For Zambia's Farmers</h2>
+            <p class="section-lead-text" style="margin-bottom: 18px;">
+              Zambia Youth for Organic Agriculture (ZYOA) is a dynamic, youth-led initiative founded in Mudenda Village, Kanakantapa, focused on creating resilient agricultural solutions for Zambia’s small-scale farmers.
+            </p>
+            <p style="margin-bottom: 16px; line-height: 1.7;">
+              Smallholder farmers across our nation face steep barriers: surging prices for imported synthetic fertilizers, decreasing crop yields due to soil acidification, and heightened vulnerability to climate variability.
+            </p>
+            <p style="margin-bottom: 24px; line-height: 1.7;">
+              At ZYOA, we turn locally available natural and agricultural residues into rich, affordable, bio-active organic fertilizers—particularly through Bokashi anaerobic fermentation. In doing so, we restore soil biology, reduce dependency on expensive imports, and provide youth with high-impact, dignified livelihoods.
+            </p>
+            <div style="display: flex; gap: 14px;">
+              <a href="projects.html" class="btn-primary" style="padding: 12px 24px;">Explore Fieldwork</a>
+            </div>
+          </div>
+          <div class="split-image-wrap">
+            <img src="assets/images/members.webp" alt="ZYOA Youth Team in the Field" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission, Vision & Core Values Section -->
+    <section class="section-block alt-bg" id="mission-vision">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-badge-pill">Foundational Principles</span>
+          <h2 class="section-heading-title">Our Mission &amp; Guiding Vision</h2>
+          <p class="section-lead-text">
+            Rooted in scientific stewardship, community solidarity, and youth dynamism.
+          </p>
         </div>
 
-        <section id="section-three" class="section-three-about">
-            <div class="reveal-container">
-                <img src="assets/images/aaaa.jpg" alt="Image">
-                <h1>Together</h1>
-                <p>We can make a difference</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; margin-bottom: 56px;">
+          <!-- Vision Card -->
+          <div class="glass-card" style="padding: 36px 30px;">
+            <div class="service-icon-wrap" style="background: rgba(201, 138, 44, 0.15); color: var(--color-accent-gold);">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
             </div>
-            <div class="reveal-container-mid">
-                <div class="reveal-container-middle ">
-                    <img src="assets/images/bbbb.webp" class="img-fluid" alt="Image">
-                    <h1>ZYOA Organic</h1>
-                    <p>Try the organic way</p>
-                </div>
-                <div class="reveal-container-middle">
-                    <img  src="assets/images/cccc.webp" class="img-fluid" alt="Image">
-                    <h1>Work With Us</h1>
-                    <p>To the secure a green future </p>
-                </div>
-            </div>
-            <div class="reveal-container">
-                <img class="img-fluid" src="assets/images/dddd.jpg" alt="Image">
-                <h1>Green Empowerment</h1>
-                <p>Learn environmental Sustainability</p>
-            </div>   
-        </section>
-
-        <div class="spacer-d"></div><!--Space-->
-
-
-        <section class="join-us-section" id="join-us">
-            <h2>Join Us</h2>
-            <p>
-                Whether you’re a farmer, a youth leader, a donor, or an advocate for sustainability—ZYOA welcomes you to be part of a movement that’s changing lives from the soil up.
+            <h3 style="font-size: 1.5rem; margin-bottom: 14px;">Our Vision</h3>
+            <p style="font-size: 1.05rem; line-height: 1.7;">
+              A thriving, environmentally conscious agricultural sector in Zambia—championed by empowered youth and strengthened by resilient, high-yield organic farming systems.
             </p>
-            <div class="join-actions">
-                <button class="join-box" onclick="location.href='contacts.html'">Contact Us</button>
-                <!-- <div class="join-box">Partner With Us</div> -->
-                <button class="join-box" id="shareBtn">Support Our Work</button>
-                
-                <!-- Popup -->
-                <div class="share-popup" id="sharePopup">
-                    <div class="close-btn" id="closeSharePopup"><i class="fas fa-times"></i></div>
-                    <div class="social-icons">
-                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
-                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://wa.me/?text=Check%20this%20out!" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
+          </div>
+
+          <!-- Mission Card -->
+          <div class="glass-card" style="padding: 36px 30px;">
+            <div class="service-icon-wrap" style="background: var(--color-accent-soft); color: var(--color-primary);">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
             </div>
-        </section>
+            <h3 style="font-size: 1.5rem; margin-bottom: 14px;">Our Mission</h3>
+            <p style="font-size: 1.05rem; line-height: 1.7;">
+              To promote sustainable agriculture and youth empowerment by producing affordable, eco-friendly organic fertilizers, while regenerating depleted soils, protecting watersheds, and improving farmer livelihoods.
+            </p>
+          </div>
+        </div>
 
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9HJB6NCC0"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-D9HJB6NCC0');
-        </script>
+        <!-- Core Values Grid -->
+        <div id="core-values" style="margin-top: 40px;">
+          <h3 style="font-size: 1.8rem; text-align: center; margin-bottom: 28px; color: var(--color-primary);">Our Core Values</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+            <div class="glass-card" style="padding: 24px; text-align: center;">
+              <i class="fas fa-seedling" style="font-size: 2rem; color: var(--color-accent-emerald); margin-bottom: 12px;"></i>
+              <h4 style="font-size: 1.2rem; margin-bottom: 8px;">Sustainability</h4>
+              <p style="font-size: 0.88rem;">Protecting biodiversity, natural water tables, and soil micro-ecology for future generations.</p>
+            </div>
+            <div class="glass-card" style="padding: 24px; text-align: center;">
+              <i class="fas fa-lightbulb" style="font-size: 2rem; color: var(--color-accent-gold); margin-bottom: 12px;"></i>
+              <h4 style="font-size: 1.2rem; margin-bottom: 8px;">Innovation</h4>
+              <p style="font-size: 0.88rem;">Pioneering affordable Bokashi bio-technologies tailored for local Zambian cropping systems.</p>
+            </div>
+            <div class="glass-card" style="padding: 24px; text-align: center;">
+              <i class="fas fa-heartbeat" style="font-size: 2rem; color: #ef4444; margin-bottom: 12px;"></i>
+              <h4 style="font-size: 1.2rem; margin-bottom: 8px;">Health &amp; Safety</h4>
+              <p style="font-size: 0.88rem;">Ensuring non-toxic crops, residue-free food supplies, and safe working conditions for farmers.</p>
+            </div>
+            <div class="glass-card" style="padding: 24px; text-align: center;">
+              <i class="fas fa-users" style="font-size: 2rem; color: var(--color-primary); margin-bottom: 12px;"></i>
+              <h4 style="font-size: 1.2rem; margin-bottom: 8px;">Community First</h4>
+              <p style="font-size: 0.88rem;">Prioritizing smallholder welfare, rural women, and youth cooperatives in every project.</p>
+            </div>
+            <div class="glass-card" style="padding: 24px; text-align: center;">
+              <i class="fas fa-shield-alt" style="font-size: 2rem; color: #3b82f6; margin-bottom: 12px;"></i>
+              <h4 style="font-size: 1.2rem; margin-bottom: 8px;">Climate Resilience</h4>
+              <p style="font-size: 0.88rem;">Building organic soils with high water retention to withstand prolonged dry spells and droughts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <script src="static/js/navbar.js?v=3"></script>
-        <script src="static/js/about.js?v=3"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+    <!-- What We Do Detailed Breakdown -->
+    <section class="section-block" id="what-we-do">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-badge-pill">Programs &amp; Interventions</span>
+          <h2 class="section-heading-title">What We Do In Practice</h2>
+          <p class="section-lead-text">
+            Practical, on-the-ground initiatives that deliver immediate yield gains and long-term land restoration.
+          </p>
+        </div>
 
-    </body>
+        <div class="cards-grid-4">
+          <div class="glass-card feature-service-card">
+            <div class="service-icon-wrap"><i class="fas fa-flask"></i></div>
+            <h3>Organic Fertilizer Formulation</h3>
+            <p>Formulating nutrient-dense Bokashi fertilizers, bio-char enrichments, and liquid bio-fertilizers using local biomass.</p>
+          </div>
 
+          <div class="glass-card feature-service-card">
+            <div class="service-icon-wrap"><i class="fas fa-chalkboard-teacher"></i></div>
+            <h3>Farmer Training Workshops</h3>
+            <p>Organizing practical field days on soil biology, natural pest repellents, bio-composting, and minimal-tillage farming.</p>
+          </div>
+
+          <div class="glass-card feature-service-card">
+            <div class="service-icon-wrap"><i class="fas fa-user-graduate"></i></div>
+            <h3>Youth Agripreneurship</h3>
+            <p>Training youth in fertilizer manufacturing, marketing, and commercial agro-ecology to build profitable green businesses.</p>
+          </div>
+
+          <div class="glass-card feature-service-card">
+            <div class="service-icon-wrap"><i class="fas fa-handshake"></i></div>
+            <h3>Community Outreach</h3>
+            <p>Partnering with rural leadership to implement communal vegetable gardens, clean water access, and regenerative practices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fieldwork Gallery / Aspirations -->
+    <section class="section-block alt-bg">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-badge-pill">Fieldwork Gallery</span>
+          <h2 class="section-heading-title">Together Making A Difference</h2>
+          <p class="section-lead-text">Snapshots of our youth and community partners cultivating organic excellence.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+          <div class="split-image-wrap" style="height: 260px;">
+            <img src="assets/IMG-20261003-WA0013.jpg" alt="ZYOA Benkaol Biofertilizer Showcase" style="height: 100%; object-fit: cover;" loading="lazy" />
+          </div>
+          <div class="split-image-wrap" style="height: 260px;">
+            <img src="assets/images/bbbb.webp" alt="ZYOA Organic Production" style="height: 100%; object-fit: cover;" loading="lazy" />
+          </div>
+          <div class="split-image-wrap" style="height: 260px;">
+            <img src="assets/images/cccc.webp" alt="Community Collaboration" style="height: 100%; object-fit: cover;" loading="lazy" />
+          </div>
+          <div class="split-image-wrap" style="height: 260px;">
+            <img src="assets/IMG-20261003-WA0014.jpg" alt="Indigenous Seed Exhibition &amp; Capacity Fair" style="height: 100%; object-fit: cover;" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join Us Callout Banner -->
+    <div class="container" id="join-us">
+      <div class="callout-banner">
+        <h2>Join Us In Building Sustainable Agriculture</h2>
+        <p>
+          Whether you’re a farmer seeking better soil health, a youth ready to build an agricultural career, an NGO, or an investor—ZYOA welcomes you to take part in this vital movement.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <a href="contacts.html" class="btn-primary" style="padding: 14px 32px;">
+            <span>Contact Our Team</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="projects.html" class="btn-secondary">
+            <span>Explore All Projects</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Responsive Footer -->
+  <footer class="zyoa-footer">
+    <div class="Zyoa-footer-container">
+      <img class="green-world-svg" src="assets/icons/green.gif" alt="Green World Animation" />
+
+      <div class="zyoa-footer-content-container">
+        <div class="footer-social-icons-container">
+          <h3>ZYOA is dedicated to empower youth and small-scale farmers with organic solutions for a healthier, more sustainable Zambia.</h3>  
+          <div class="footer-social-icons">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ZYOA Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>                  
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="ZYOA Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ZYOA Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ZYOA LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                  
+            </a>
+          </div>
+        </div>
+
+        <div class="explore-container">
+          <h3>Explore</h3>
+          <div class="explore-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Farmers Aid Blog</a>
+            <a href="contacts.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="footer-get-in-touch-container">
+          <h3>Get In Touch</h3>
+          <div class="contact-address">
+            <div class="contact-plus-address">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>                                             
+              <a href="tel:+260771827708">+260 771 827 708</a>
+            </div>
+            <div class="contact-plus-address">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>          
+              <a href="mailto:zyoa2025@gmail.com">zyoa2025@gmail.com</a>
+            </div>
+            <div class="location-foot">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>              
+              <a href="https://maps.google.com/?q=Mudenda+Village+Kanakantapa+Zambia" target="_blank" rel="noopener noreferrer">Mudenda Village, Kanakantapa</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-map">
+          <img src="assets/images/map.webp" alt="ZYOA Location Map" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+    <hr class="footer-divider" />
+   
+    <div class="bottom-copy">
+      <h6>Copyright &copy; ZYOA | 2025</h6>
+      <a href="#" class="develop-by">Designed &amp; Developed by: Chiiko Matthew</a>
+    </div>
+  </footer>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9HJB6NCC0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-D9HJB6NCC0');
+  </script>
+
+  <script src="static/js/ambient-video.js"></script>
+</body>
 </html>
-
-

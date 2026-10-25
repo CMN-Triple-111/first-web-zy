@@ -45,7 +45,7 @@
             flex-direction: row;
             justify-content: space-between;
             position: relative;
-            align-items: left;
+            align-items: center;
             text-decoration: none;
         }
         .zyoa-logo-container img {
